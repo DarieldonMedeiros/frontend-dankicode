@@ -1,0 +1,17 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: red;
+}

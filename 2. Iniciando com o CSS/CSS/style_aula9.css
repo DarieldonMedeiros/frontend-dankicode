@@ -1,0 +1,23 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.tipo1 {
+    color: rgb(100, 100, 100);
+}
+
+.link_ {
+    font-size: 30px;
+}
+
+.tipo2 {
+    font-size: 40px;
+}
+
+/** O que importa é a ordem que está escrito no CSS, a não ser que o comando seja mais específico
+ */

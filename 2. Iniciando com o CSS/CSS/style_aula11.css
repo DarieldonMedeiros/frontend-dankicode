@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/**Manipulando as bordas */
+/* .center {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+} */
+
+/* .artigo { */
+/*     box-sizing: border-box; */
+/*     border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(255, 0, 0); */
+/*     border: 3px dotted rgb(255, 0, 0); */
+/*     margin: 10px 17px; */
+/*     outline: 50px solid blue; 
+/* borda cresce para dentro e outline para fora */
+/*
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 30px;
+    width: 640px;
+} */
+
+p {
+    display: inline-block;
+    width: 30px;
+    margin-right: -4px;
+    height: 300px;
+    background: #FF0000;
+}
+
+/** p -> display block, span -> display inline */

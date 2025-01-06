@@ -1,0 +1,18 @@
+/* #div1 >  h1 { /*O sinal ">" aplica somente para os comandos filhos*, se não aplicar, vai procurar todos os comandos que estão dentro do id*/
+    /* color: red;
+} */
+
+/* O "#" referencia id e o "." referencia classe*/
+/* .div2 h1 {
+    color: orange;
+} */
+
+/* O ID É ATRIBUIDO SOMENTE UMA VEZ, SE QUISER USAR TAGS REPETIDAS, UTILIZA CLASS
+*/
+
+/* Essa configuração reseta todos os estilos que o navegador coloca no site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
