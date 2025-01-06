@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/**  Desse jeito estou estilizando todos os atributos <a> que possuem href Se quiser atacar um elemento específico pode especificar o href*/
+
+/* a[href="http://google.com"] {
+    background-color: yellow;
+} */
+
+/** Este comando é menos específico que o primeiro, pois pega somente o atributo */
+/* [href="http://dankicode.com"] {
+    background-color: red;
+} */
+
+/** O *= estiliza todos os conteúdos que possuam as palavras que estão após ele  */
+/* a[href*="google"], a[href*="danki"] {
+    background-color: blue;
+} */
+/** O ~= procura entre os espaços do atributo e estiliza os que acha igual */
+/* a[attr~="google"]{
+    background-color: blue;
+} */
+
+/** O |= procura as palavras exatas ou que possuam algum traço ligando elas */
+/* a[attr|="google"] {
+    background-color: red;
+} */
+
+/** O ^= procura a palavra que começa (não precisa ser a palavra completa) */
+/* a[attr^="goo"] {
+    background-color: red;
+} */
+
+/** O $= procura a a palavra que termina (não precisa ser a palavra completa) */
+/* a[attr$="hoo"] {
+    background-color: red;
+} */
+
+/** as " são opcionais quando não tem espaço */
+.text[type=text] {
+    background-color: green;
+}
+
+input[type=submit]{
+    background-color: blue;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+/* 
+.table1 {
+    width: 900px;
+    border-collapse: collapse; /** Colidir as bordas para ter 1 só borda
+    margin: 0 auto;
+}
+
+table tr td {
+    background-color: rgb(200, 200, 200);
+    height: 300px;
+    vertical-align: bottom;
+    border: 3px solid black;
+} */
+
+/** position: fixed; fixa o bloco estilizado no local, não segue o scroll*/
+/** position: absolute; fixa o bloco baseado no documento, então ele segue o scroll*/
+/** position: relative a posição do bloco é relativa de acordo com a posição que ele se encontra no documento */
+/** Por padrão a position: static é colocada (não possui os valores top, left, bottom, right*/
+/** left e top tem a preferência sobre o right e bottom */
+.menu-fixed {
+    position: relative/*fixed, absolute, relative*/;
+    top: 30px;
+    left: 70px;
+    width: 300px;
+    height: 200px;
+    background: #069;
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    background: green;
+}
+
+.box p {
+    width: 400px;
+}

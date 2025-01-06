@@ -3,3 +3,4 @@ Repositório onde são guardados os exercícios e projetos do [Curso Front-End C
 Atualmente tem os seguintes exercícios e projetos:
 1. Entendendo o HTML
 2. Iniciando com o CSS
+3. Dominando o CSS

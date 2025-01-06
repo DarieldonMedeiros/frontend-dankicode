@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+.box {
+    width: 40%;
+    height: 300px;
+    color: grey;
+}
+
+.box2 {
+    height: 900px;
+}
+
+.box p {
+    color: initial; /* valor padrão do navegador */
+}
+
+/* .box > .box2 > span {
+    display: inline-block;
+    /* width: inherit;/* herda o tamanho do pai
+    height: inherit;/* herda o tamanho do pai
+    background: red;
+} */
+
+@media screen and (max-width: 480px) {
+    .box {
+        height: auto; /* deixa a altura automática */
+    }
+    
+}
+
+/*
+Resumo:
+1. auto => vai pegar o valor padrão do elemento
+2. inherit => vai herdar o valor do elemento pai
+3. initial => vai utilizar o valor padrão do navegador
+ */
